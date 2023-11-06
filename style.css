@@ -1,0 +1,168 @@
+* {margin: 0;
+padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li{
+    list-style: none;
+}
+header .logo{
+    float: left
+}
+header .logo img{
+    height: 70px;
+    margin-top: 5px;
+}
+header .menu{
+    float: right
+}
+header .menu li {
+    display: inline-block ;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+header{
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+header > div {
+    height: 50px;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*header .logo{
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;*/
+}
+
+header.logo{
+    float: left;
+    
+}
+
+header .menu{
+    float: right;
+    margin-top: 0px;
+}
+header .menu li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+header .menu li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
+#idx_top{
+    width: 100%;
+    height: 450px;
+    background: url(img/popup_20230724.jpg)no-repeat 50% 50% /cover; 
+}
+#idx_top strong{
+    font-size: 60px;
+    color: #fff;
+}
+#idx_top p{
+    font-size: 20px;
+    color: #fff;
+}
+#idx_top{
+    width: 100%;
+    padding: 160px 0;
+    background: url(img/popup_20230724.jpg)no-repeat 50% 50% /cover;
+    text-align: center;
+}
+
+#idx_top strong{
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: -2px;
+}
+#idx_top strong {
+    color: yellow;
+}
+#idx_top p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+#idx_board_wrap{
+    background: #ddd;
+    padding: 50px 0;
+}
+#idx_board_wrap > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.idx_board{
+    width: 48%;
+    display: inline-block;
+    background: #fff;
+}
+.idx_board:nth-child(even){
+    margin-left: 4%;
+}
+.idx_board:nth-child(3),
+.idx_board:nth-child(4) {
+    margin-top: 40px;
+}
+.idx-board .title{
+    position: relative;
+    border-bottom: 1px solid #aaa;
+    padding: 20px;
+}
+.idx_board .title a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.idx_board .title .name {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.idx_board .title .more {
+    position: ;
+    top: 23px;    
+    right: 20px;
+}
+.idx_board .title .more img{
+    width: 24px;
+    margin-left: 366px;
+}
+.idx_board .list{
+    padding: 20px;
+    font-size: 14px;
+}
+.idx_board .list ul li {
+    margin-top: 10px;
+}
+.idx_board .list ul li :first-child{
+    margin-top: 0;
+}
+.idx_boaard .list a {
+    font-size: 14px;
+    width: 80%;
+}
+.idx_board .list span{
+    font-size: 12px;
+    color: #777;
+    width: 60%;
+    text-align: right;
+}
+.idx_board .list a, .idx_board .list span {
+    display: inline-block;
+    vertical-align: middle;
+}
